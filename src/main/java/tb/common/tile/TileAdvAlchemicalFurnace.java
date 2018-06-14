@@ -2,6 +2,7 @@ package tb.common.tile;
 
 import java.lang.reflect.Field;
 
+import net.minecraft.item.ItemStack;
 import net.minecraft.nbt.NBTTagCompound;
 import tb.utils.TBConfig;
 import thaumcraft.common.config.ConfigItems;
@@ -14,20 +15,20 @@ public class TileAdvAlchemicalFurnace extends TileAlchemyFurnace{
 	public void readFromNBT(NBTTagCompound tag)
 	{
 		super.readFromNBT(tag);
-		isFuelAlumentum = tag.getBoolean("isAlumentium");
+		isFuelAlumentum = tag.getBoolean("isFuelAlumentum");
 	}
 	
 	public void writeToNBT(NBTTagCompound tag)
 	{
 		super.writeToNBT(tag);
-		tag.setBoolean("isAlumentium", isFuelAlumentum);
+		tag.setBoolean("isFuelAlumentum", isFuelAlumentum);
 	}
 	
 	public void updateEntity()
 	{
 		if(this.furnaceBurnTime == 0)
 		{
-			isFuelAlumentum = this.getStackInSlot(1) != null && this.getStackInSlot(1).getItem() == ConfigItems.itemResource && this.getStackInSlot(1).getItemDamage() == 0;
+			isFuelAlumentum = this.func_70304_b(1) != null && this.func_70304_b(1).getItem() == ConfigItems.itemResource && this.func_70304_b(1).getItemDamage() == 0;
 		}
 		try
 		{

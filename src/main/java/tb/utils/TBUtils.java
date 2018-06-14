@@ -1,5 +1,9 @@
 package tb.utils;
 
+import DummyCore.Utils.Coord3D;
+import DummyCore.Utils.Pair;
+import net.minecraft.scoreboard.ScorePlayerTeam;
+import net.minecraft.scoreboard.Scoreboard;
 import thaumcraft.api.aspects.Aspect;
 import thaumcraft.common.Thaumcraft;
 import thaumcraft.common.lib.network.PacketHandler;
@@ -9,7 +13,16 @@ import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.entity.player.EntityPlayerMP;
 import net.minecraftforge.common.util.FakePlayer;
 
+import java.util.ArrayList;
+
 public class TBUtils {
+
+	public static Scoreboard scoreboard = new Scoreboard();
+	public static ScorePlayerTeam team1 = new ScorePlayerTeam(scoreboard, "team1");
+	public static ScorePlayerTeam team2= new ScorePlayerTeam(scoreboard, "team2");
+
+
+	public static ArrayList<Pair<Integer,Coord3D>> loadedClientSpawners = new ArrayList<Pair<Integer,Coord3D>>();
 	
 	public static void addAspectToKnowledgePool(EntityPlayer player, Aspect aspect, short amount)
 	{

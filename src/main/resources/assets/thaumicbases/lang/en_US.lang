@@ -578,6 +578,26 @@ item.tb.bracelet.blaze=Blaze Bracelet
 item.tb.bracelet.quartz=Quartz Bracelet
 item.tb.bracelet.void=Void Bracelet
 item.tb.bracelet.primal=Primal Bracelet
+item.herobrinesScythe.name=Scythe Of The White-Eyed One
+
+item.tb.ukulele.0.name=Magical Ukulele
+item.tb.ukulele.1.name=Old Magical Ukulele
+item.tb.ukulele.2.name=Trusty Magical Ukulele
+item.tb.ukulele.3.name=Electro-Magical Ukulele
+item.tb.ukulele.4.name=Magical Ukulele of Invincibility
+item.tb.ukulele.5.name=Bard's Magical Ukulele
+item.tb.ukulele.6.name=Demonic Magical Ukulele
+item.tb.ukulele.7.name=Fairytale Ukulele
+item.tb.ukulele.8.name=Comfortable Magical Ukulele
+tb.ukulele.type.simple=Sometimes the simplest one is enough
+tb.ukulele.type.knowledge=Classical music with a bit of knowledge
+tb.ukulele.type.calming=Heard the best near the bath
+tb.ukulele.type.electric=...And his music was electric!
+tb.ukulele.type.resistance=Nothing can harm me!
+tb.ukulele.type.buffing=A cool party addition
+tb.ukulele.type.confusion=Something you might not want to hear
+tb.ukulele.type.growth=Plants love music too!
+tb.ukulele.type.love=Animals are all getting 'in the mood'
 
 #Enchantments for the revolver
 revolverUpgrade.ACCURACY.name=Accuracy
@@ -609,6 +629,12 @@ tc.research_text.TB.NodeLinker=From one source to another!
 tb.rec.nodeLink.page.0=Nodes. The things that link your world to the world of magic. They are heavily used in thaumaturgy - some devices use them to function, you need them to recharge your wands. However there is a small problem - a node can always store that much of vis and if it has, for example, no terra it it - this is it, it has no terra, and that aspect can't be gained from the node. There sure is a so called 'node bullying' - one node eating other, smaller nodes. With the discovery of the Advanced node stabiliser that can be worked with, but it takes a ridiculous amount of time and also is unreliable.
 tb.rec.nodeLink.page.1=You have discovered a device that might get the job done. The node Linking Device creates a mysterious link between 2 nodes and will move aspects from the linked one to the linker. You need 2 of this devices placed on top of nodes. Then just take your wand and right click on the receiver. After that click on the transmitter - and the link will be established. The link will firstly drain all aspects out of the transmitting node's pull, then it will draw the node's capacity and will increase the receiver’s capacity based on that. Lastly the node without any capacity left will fade away. The chance of the receiver node to increase it's aspect capacity is around 70% for each capacity decrease on the transmitting node.
 tb.rec.nodeLink.page.2=The transmission however is pretty unstable - both nodes will react to the link. This will result in a so called instability. The more time the device functions - the more instability it will have. Based on the amount of instability different things may happen - from the aspects escaping out of nodes on both ends into air in form of flux, to the complete transmitting node destruction with the explosion. The receiving node however will never get harmed in any way.
+
+tc.research_name.TB.HerobrinesScythe=Scythe Of The White-Eyed One
+tc.research_text.TB.HerobrinesScythe=Your worst nightmare...
+tb.rec.hScythe.page.0=You have seen this thing in your nightmares. Possessed by it's image you have made an exact copy - it feels unreal, this thing does not belong to this world. How much further can you go with your insanity - you don't even know. Anyway, this thing is extremely hard to create, yet it is very promising. All knowledge of the death will be required to create this beast.
+tb.rec.hScythe.page.1=This weapon is extremely powerfull - not only it does insane damage - it is kinda not a part of this world, and it creates a tiny energy pulse every time it tears flesh. This pulse will then bounce infinitely to the nearby enemies - from one to another, untill there is noone left. The pulse deals the same damage as the scythe. It will also be affected by things like Strength potions or enchantments. This weapon, alike the Void Hoe it is made from can repare itself. Other thaumaturges got really scared of you since you've made that thing - they whisper about your eyes, completely blank white eyes. Sure it is just them being jealous and foolish, is it?..
+
 
 tc.research_name.TB.Revolver.Accuracy=Revolver Upgrade: Accuracy
 tc.research_text.TB.Revolver.Accuracy=Sniping from miles away
@@ -731,6 +757,37 @@ tb.rec.bracelet.bone.page.0=You have created a bracelet that shares the same fun
 tc.research_name.TB.Bracelet.Primal=Primal Bracelets
 tc.research_text.TB.Bracelet.Primal=The ultimate way
 tb.rec.bracelet.primal.page.0=Using your knowledge of the Staff core of the Primal you have created a bracelet that shares the same functionality. It will slowly regenerate all aspects within itself up to 10%. It also holds the most vis out of all bracelets and offers the best discount. Lastly, similar to the primal staff core it will automatically add 1 level of Potency to any foci used with it.
+
+
+tc.research_name.TB.Ukulele=Magical Ukulele
+tc.research_name.TB.Ukulele.Confusion=Magical Ukulele Buff: Confusion
+tc.research_name.TB.Ukulele.Buffs=Magical Ukulele Buff: Bard's
+tc.research_name.TB.Ukulele.Sanity=Magical Ukulele Buff: Sanitizing
+tc.research_name.TB.Ukulele.Love=Magical Ukulele Buff: Love
+tc.research_name.TB.Ukulele.Electric=Magical Ukulele Buff: Electric
+tc.research_name.TB.Ukulele.Resistance=Magical Ukulele Buff: Resistance
+tc.research_name.TB.Ukulele.Growth=Magical Ukulele Buff: Growth
+tc.research_name.TB.Ukulele.Knowledge=Magical Ukulele Buff: Knowledge
+tc.research_text.TB.Ukulele=Magical music!
+tc.research_text.TB.Ukulele.Confusion=Something you might not want to hear...
+tc.research_text.TB.Ukulele.Buffs=A great party addition
+tc.research_text.TB.Ukulele.Sanity=Calm down, chill!
+tc.research_text.TB.Ukulele.Love=A song of love
+tc.research_text.TB.Ukulele.Electric=And his music was electric!
+tc.research_text.TB.Ukulele.Resistance=Invulnerability at it's micrest!
+tc.research_text.TB.Ukulele.Growth=Plants do like music too!
+tc.research_text.TB.Ukulele.Knowledge=A 'thinking' music
+
+tb.rec.ukulele.base.page.0=Thaumaturgy and music. Music and thaumaturgy. Sure, you can listen to your 'cat' music record all days while researching, but... Is that it? There is an arcane ear, which can sence the most pale nodes and interact with then... Once you caught yourself standing near your research table and... singing a very simple song. This gave you an idea though.
+tb.rec.ukulele.base.page.1=You have been experimenting for a while now and this is what you have came up with. The guitar, you are choosing to call 'ukulele', even though it is not one. This is a very interesting construction - created both  from resources and magic. It is very resistant to damage and thus can't break. It also seems to be vis attractive, just as a wand. You can finally make your music now! You are sure that the most simple one can be 'enchanted' to make use of vis stored in it..
+tb.rec.ukulele.confusion.page.0=By infusing the ukulele with all sorts of dark twisted things you have managed to alter the music it plays. It will temporary warp the minds of anyone hearingthe music, causing them to randomly change target of their attacks, panic or even loose consciousness!
+tb.rec.ukulele.buffing.page.0=By infusing the ukulele with all sorts of potions you have managed to create a very interesting effect. Whoever hears the song you play will get buffed by those potions!
+tb.rec.ukulele.sanity.page.0=This infusion of the ukulele calms the mids of everyone hearing it, therefore reducing their warp level and giving them a long lasting warp ward effect.
+tb.rec.ukulele.live.page.0=This infusion makes a very interesting effect on the animals - they will start falling in love with eachother while they are hearing the song of this ukulele.
+tb.rec.ukulele.electric.page.0=You have infused your guitar with all sorts of 'electric' things. The effect isvery interesting - while you are playing this guitar it shoots rapid lightnings at the entity you are looking at. Also it sounds cool.
+tb.rec.ukulele.resistance.page.0=This infusion seems to be the best you have achieved so far. It is very... micromanagement requiring though. As you start playing it your health seems to freeze in place - it will not go down as long as you keep playing the ukulele. Neither will it go up though...
+tb.rec.ukulele.growth.page.0=This infusion causes plants in a huge range around you to hear you playing and start growing faster, similar to lamp of growth.
+tb.rec.ukulele.knowledge.page.0=This infusion makes everyone hearing the ukulele to start thinking.You are sure that it can help you with your researches.
 
 
 
