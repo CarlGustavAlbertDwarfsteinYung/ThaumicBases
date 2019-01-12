@@ -147,7 +147,7 @@ public class ItemUkulele extends ItemAmuletVis {
             if (count % 20 == 0) {
                 AxisAlignedBB aabb = AxisAlignedBB.getBoundingBox(player.posX - 4, player.posY - 4, player.posZ - 4, player.posX + 4, player.posY + 4, player.posZ + 4);
                 List<EntityLivingBase> entities = player.worldObj.getEntitiesWithinAABB(EntityLivingBase.class, aabb);
-
+                //DamageSource.
                 for (int num = 0; num < entities.size(); num++) {
                     EntityLivingBase entity = entities.get(num);
 
@@ -162,12 +162,11 @@ public class ItemUkulele extends ItemAmuletVis {
                     if (entity instanceof EntityPlayer) {
                         EntityPlayer p = (EntityPlayer)entity;
                         if (this.consumeAllVis(stack, player, cost, !player.worldObj.isRemote, false)) {
-                            boolean hasEffect = p.getActivePotionEffect(PotionWarpWard.instance) != null;
-                            if (!hasEffect) {
+                            PotionEffect effect = p.getActivePotionEffect(PotionWarpWard.instance);
+                            if (effect == null) {
                                 if (!p.worldObj.isRemote)
-                                    p.addPotionEffect(new PotionEffect(PotionWarpWard.instance.getId(), 200, 0, false));
+                                    p.addPotionEffect(new PotionEffect(PotionWarpWard.instance.id, 200, 0, false));
                             } else {
-                                PotionEffect effect = p.getActivePotionEffect(PotionWarpWard.instance);
                                 try {
                                     Field dur = PotionEffect.class.getDeclaredFields()[2];
                                     dur.setAccessible(true);

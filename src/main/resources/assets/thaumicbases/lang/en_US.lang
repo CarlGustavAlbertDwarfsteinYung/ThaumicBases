@@ -782,12 +782,12 @@ tb.rec.ukulele.base.page.0=Thaumaturgy and music. Music and thaumaturgy. Sure, y
 tb.rec.ukulele.base.page.1=You have been experimenting for a while now and this is what you have came up with. The guitar, you are choosing to call 'ukulele', even though it is not one. This is a very interesting construction - created both  from resources and magic. It is very resistant to damage and thus can't break. It also seems to be vis attractive, just as a wand. You can finally make your music now! You are sure that the most simple one can be 'enchanted' to make use of vis stored in it..
 tb.rec.ukulele.confusion.page.0=By infusing the ukulele with all sorts of dark twisted things you have managed to alter the music it plays. It will temporary warp the minds of anyone hearingthe music, causing them to randomly change target of their attacks, panic or even loose consciousness!
 tb.rec.ukulele.buffing.page.0=By infusing the ukulele with all sorts of potions you have managed to create a very interesting effect. Whoever hears the song you play will get buffed by those potions!
-tb.rec.ukulele.sanity.page.0=This infusion of the ukulele calms the mids of everyone hearing it, therefore reducing their warp level and giving them a long lasting warp ward effect.
-tb.rec.ukulele.live.page.0=This infusion makes a very interesting effect on the animals - they will start falling in love with eachother while they are hearing the song of this ukulele.
-tb.rec.ukulele.electric.page.0=You have infused your guitar with all sorts of 'electric' things. The effect isvery interesting - while you are playing this guitar it shoots rapid lightnings at the entity you are looking at. Also it sounds cool.
+tb.rec.ukulele.sanity.page.0=This infusion of the ukulele calms everyone hearing it reducing their warp level and giving them a regeneration effect. Regeneration works on all non undead mobs. Undead get hurt instead.
+tb.rec.ukulele.live.page.0=This infusion makes a very interesting effect on the animals - they will start falling in love with each other while they are hearing the song of this ukulele. Additionally you will now be able to tempt Villagers to follow you.
+tb.rec.ukulele.electric.page.0=You have infused your guitar with all sorts of 'electric' things. The effect is very interesting - while you are playing this guitar it shoots rapid lightnings at the entity you are looking at. Also it sounds cool.
 tb.rec.ukulele.resistance.page.0=This infusion seems to be the best you have achieved so far. It is very... micromanagement requiring though. As you start playing it your health seems to freeze in place - it will not go down as long as you keep playing the ukulele. Neither will it go up though...
-tb.rec.ukulele.growth.page.0=This infusion causes plants in a huge range around you to hear you playing and start growing faster, similar to lamp of growth.
-tb.rec.ukulele.knowledge.page.0=This infusion makes everyone hearing the ukulele to start thinking.You are sure that it can help you with your researches.
+tb.rec.ukulele.growth.page.0=This infusion causes plants and even mobs in a huge range around to start growing faster.
+tb.rec.ukulele.knowledge.page.0=This infusion makes everyone hearing the ukulele to start to wonder. You are sure that it can help you with your researches.
 
 
 
